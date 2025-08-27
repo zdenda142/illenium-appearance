@@ -3,11 +3,11 @@ Locales["cs"] = {
         modal = {
             save = {
                 title = "Uložit přizpůsobení",
-                description = "Zůstanete ošklivý/á"
+                description = "Zůstaneš ošklivý"
             },
             exit = {
                 title = "Ukončit přizpůsobení",
-                description = "Změny nebudou uloženy"
+                description = "Žádné změny nebudou uloženy"
             },
             accept = "Ano",
             decline = "Ne"
@@ -45,8 +45,8 @@ Locales["cs"] = {
                 height = "Výška",
                 size = "Velikost",
                 boneHeight = "Výška kosti",
-                boneTwist = "Otočení kosti",
-                peakHeight = "Výška hřbetu"
+                boneTwist = "Zkroucení kosti",
+                peakHeight = "Výška špičky"
             },
             eyebrows = {
                 title = "Obočí",
@@ -65,16 +65,16 @@ Locales["cs"] = {
                 lipsThickness = "Tloušťka rtů"
             },
             jaw = {
-                title = "Brada",
+                title = "Čelist",
                 width = "Šířka",
                 size = "Velikost"
             },
             chin = {
                 title = "Brada",
-                lowering = "Snižování",
+                lowering = "Snížení",
                 length = "Délka",
                 size = "Velikost",
-                hole = "Velikost díry"
+                hole = "Velikost důlku"
             },
             neck = {
                 title = "Krk",
@@ -89,47 +89,47 @@ Locales["cs"] = {
                 color = "Barva",
                 highlight = "Zvýraznění",
                 texture = "Textura",
-                fade = "Blednutí"
+                fade = "Vytrácení"
             },
-            opacity = "Průhlednost",
+            opacity = "Neprůhlednost",
             style = "Styl",
             color = "Barva",
-            secondColor = "Druhá barva",
-            blemishes = "Vady",
+            secondColor = "Sekundární barva",
+            blemishes = "Nedokonalosti",
             beard = "Vousy",
             eyebrows = "Obočí",
             ageing = "Stárnutí",
-            makeUp = "Líčení",
-            blush = "Rouge",
-            complexion = "Kožní vada",
+            makeUp = "Make-up",
+            blush = "Tvářenka",
+            complexion = "Pokožka",
             sunDamage = "Poškození sluncem",
             lipstick = "Rtěnka",
-            moleAndFreckles = "Mateřské znaménko a pihy",
-            chestHair = "Hrstka na hrudi",
-            bodyBlemishes = "Vady těla",
+            moleAndFreckles = "Mateřská znaménka a pihy",
+            chestHair = "Hrudní vlasy",
+            bodyBlemishes = "Tělesné nedokonalosti",
             eyeColor = "Barva očí"
         },
         components = {
             title = "Oblečení",
-            drawable = "Vykreslování",
+            drawable = "Model",
             texture = "Textura",
             mask = "Maska",
-            upperBody = "Horní část těla",
-            lowerBody = "Spodní část těla",
-            bags = "Tašky a padáky",
+            upperBody = "Ruce",
+            lowerBody = "Kalhoty",
+            bags = "Tašky a padák",
             shoes = "Boty",
-            scarfAndChains = "Šála a řetízky",
+            scarfAndChains = "Šála a řetězy",
             shirt = "Košile",
-            bodyArmor = "Tělesná zbroj",
+            bodyArmor = "Vesty",
             decals = "Nálepky",
             jackets = "Bundy",
             head = "Hlava"
         },
         props = {
-            title = "Rekvizity",
-            drawable = "Vykreslování",
+            title = "Doplňky",
+            drawable = "Nositelný",
             texture = "Textura",
-            hats = "Klobouky a přilby",
+            hats = "Klobouky a helmy",
             glasses = "Brýle",
             ear = "Ucho",
             watches = "Hodinky",
@@ -138,71 +138,71 @@ Locales["cs"] = {
         tattoos = {
             title = "Tetování",
             items = {
-                ZONE_TORSO = "Tělo",
+                ZONE_TORSO = "Trup",
                 ZONE_HEAD = "Hlava",
-                ZONE_LEFT_ARM = "Levá paže",
-                ZONE_RIGHT_ARM = "Pravá paže",
+                ZONE_LEFT_ARM = "Levá ruka",
+                ZONE_RIGHT_ARM = "Pravá ruka",
                 ZONE_LEFT_LEG = "Levá noha",
                 ZONE_RIGHT_LEG = "Pravá noha"
             },
             apply = "Aplikovat",
             delete = "Odstranit",
             deleteAll = "Odstranit všechna tetování",
-            opacity = "Průhlednost"
+            opacity = "Neprůhlednost"
         }
     },
     outfitManagement = {
-        title = "Správa oděvů",
-        jobText = "Spravujte oděvy pro práci",
-        gangText = "Spravujte oděvy pro gang"
+        title = "Správa oblečení",
+        jobText = "Správa oblečení pro práci",
+        gangText = "Správa oblečení pro gang"
     },
     cancelled = {
-        title = "Zrušené přizpůsobení",
-        description = "Přizpůsobení neuloženo"
+        title = "Přizpůsobení zrušeno",
+        description = "Přizpůsobení nebylo uloženo"
     },
     outfits = {
         import = {
-            title = "Zadat kód oděvu",
-            menuTitle = "Importovat oděv",
-            description = "Importovat oděv pomocí sdíleného kódu",
+            title = "Zadejte kód oblečení",
+            menuTitle = "Importovat oblečení",
+            description = "Importujte oblečení z kódu pro sdílení",
             name = {
-                label = "Pojmenujte oděv",
-                placeholder = "Pěkný oděv",
-                default = "Importovaný oděv"
+                label = "Pojmenujte oblečení",
+                placeholder = "Hezké oblečení",
+                default = "Importované oblečení"
             },
             code = {
-                label = "Kód oděvu"
+                label = "Kód oblečení"
             },
             success = {
-                title = "Oděv importován",
-                description = "Nyní můžete změnit oděv pomocí menu oděvů"
+                title = "Oblečení importováno",
+                description = "Nyní můžete změnit oblečení pomocí nabídky oblečení"
             },
             failure = {
-                title = "Chyba importu",
-                description = "Neplatný kód oděvu"
+                title = "Import neúspěšný",
+                description = "Neplatný kód oblečení"
             }
         },
         generate = {
-            title = "Generovat kód oděvu",
-            description = "Generovat kód oděvu pro sdílení",
+            title = "Generovat kód oblečení",
+            description = "Generujte kód oblečení pro sdílení",
             failure = {
                 title = "Něco se pokazilo",
-                description = "Generace kódu oděvu selhala"
+                description = "Generování kódu pro oblečení selhalo"
             },
             success = {
-                title = "Kód oděvu vygenerován",
-                description = "Zde je váš kód oděvu"
+                title = "Kód oblečení vygenerován",
+                description = "Tady je váš kód oblečení"
             }
         },
         save = {
-            menuTitle = "Uložit aktuální oděv",
-            menuDescription = "Uložit aktuální oděv jako %s oděv",
-            description = "Uložit aktuální oděv",
-            title = "Pojmenujte svůj oděv",
-            managementTitle = "Podrobnosti o uloženém oděvu",
+            menuTitle = "Uložit aktuální oblečení",
+            menuDescription = "Uložit aktuální oblečení jako %s oblečení",
+            description = "Uložit aktuální oblečení",
+            title = "Pojmenujte své oblečení",
+            managementTitle = "Detaily správy oblečení",
             name = {
-                label = "Název oděvu",
-                placeholder = "Velmi pěkný oděv"
+                label = "Název oblečení",
+                placeholder = "Velmi cool oblečení"
             },
             gender = {
                 label = "Pohlaví",
@@ -214,118 +214,118 @@ Locales["cs"] = {
             },
             failure = {
                 title = "Uložení selhalo",
-                description = "Oděv s tímto názvem již existuje"
+                description = "Oblečení s tímto názvem již existuje"
             },
             success = {
                 title = "Úspěch",
-                description = "Oděv %s byl uložen"
+                description = "Oblečení %s bylo uloženo"
             }
         },
         update = {
-            title = "Aktualizovat oděv",
-            description = "Uložit aktuální oblečení do existujícího oděvu",
+            title = "Aktualizovat oblečení",
+            description = "Uložit aktuální oblečení do existujícího oblečení",
             failure = {
                 title = "Aktualizace selhala",
-                description = "Tento oděv neexistuje"
+                description = "Toto oblečení neexistuje"
             },
             success = {
                 title = "Úspěch",
-                description = "Oděv %s byl aktualizován"
+                description = "Oblečení %s bylo aktualizováno"
             }
         },
         change = {
-            title = "Změnit oděv",
-            description = "Vyberte si ze svých aktuálně uložených %s oděvů",
-            pDescription = "Vyberte si ze svých aktuálně uložených oděvů",
+            title = "Změnit oblečení",
+            description = "Vyberte si z jakéhokoli z vašich aktuálně uložených %s oblečení",
+            pDescription = "Vyberte si z jakéhokoli z vašich aktuálně uložených oblečení",
             failure = {
                 title = "Něco se pokazilo",
-                description = "Oděv, který se pokoušíte změnit, nemá základní vzhled",
+                description = "Oblečení, na které se pokoušíte změnit, nemá základní vzhled"
             }
         },
         delete = {
-            title = "Smazat oděv",
-            description = "Smazat uložený %s oděv",
-            mDescription = "Smazat libovolný uložený oděv",
+            title = "Odstranit oblečení",
+            description = "Odstranit uložené %s oblečení",
+            mDescription = "Odstranit jakékoli z vašich uložených oblečení",
             item = {
-                title = 'Smazat "%s"',
+                title = 'Odstranit "%s"',
                 description = "Model: %s%s"
             },
             success = {
                 title = "Úspěch",
-                description = "Oděv byl smazán"
+                description = "Oblečení bylo odstraněno"
             }
         },
         manage = {
-            title = "👔 | Spravovat %s oděvů"
+            title = "👔 | Správa %s oblečení"
         }
     },
     jobOutfits = {
-        title = "Pracovní oděvy",
-        description = "Vyberte si z vašich pracovních oděvů"
+        title = "Pracovní oblečení",
+        description = "Vyberte si z jakéhokoli z vašich pracovních oblečení"
     },
     menu = {
-        returnTitle = "Zpět",
-        title = "Místnost s oblečením",
-        outfitsTitle = "Oděvy hráče",
+        returnTitle = "Návrat",
+        title = "Místnost na převlékání",
+        outfitsTitle = "Hráčova oblečení",
         clothingShopTitle = "Obchod s oblečením",
-        barberShopTitle = "Holičství",
-        tattooShopTitle = "Tattoo Studio",
-        surgeonShopTitle = "Plastická chirurgie"
+        barberShopTitle = "Kadeřnictví",
+        tattooShopTitle = "Tetovací salón",
+        surgeonShopTitle = "Chirurgická klinika"
     },
     clothing = {
-        title = "Nákup oblečení - $%d",
-        titleNoPrice = "Změna oblečení",
+        title = "Koupit oblečení - $%d",
+        titleNoPrice = "Změnit oblečení",
         options = {
             title = "👔 | Možnosti obchodu s oblečením",
-            description = "Vyberte si z široké škály položek k nošení"
+            description = "Vyberte si z široké škály předmětů k nošení"
         },
         outfits = {
-            title = "👔 | Možnosti oděvů",
+            title = "👔 | Možnosti oblečení",
             civilian = {
-                title = "Civilní oděv",
-                description = "Oblečte se"
+                title = "Civilní oblečení",
+                description = "Oblékni si své oblečení"
             }
         }
     },
     commands = {
         reloadskin = {
-            title = "Obnovení vaší postavy",
+            title = "Načte vaši postavu znovu",
             failure = {
                 title = "Chyba",
-                description = "Nemůžete použít příkaz 'reloadskin' v tuto chvíli"
+                description = "Momentálně nemůžete použít reloadskin"
             }
         },
         clearstuckprops = {
-            title = "Odstranění všech připevněných rekvizit k entitě",
+            title = "Odstraní všechny připojené rekvizity k entitě",
             failure = {
                 title = "Chyba",
-                description = "Nemůžete použít příkaz 'clearstuckprops' v tuto chvíli"
+                description = "Momentálně nemůžete použít clearstuckprops"
             }
         },
         pedmenu = {
-            title = "Otevřít / Dát menu oblečení",
+            title = "Otevřít / Předat nabídku oblečení",
             failure = {
                 title = "Chyba",
                 description = "Hráč není online"
             }
         },
         joboutfits = {
-            title = "Otevřít menu pracovních oděvů"
+            title = "Otevřít nabídku pracovních oblečení"
         },
         gangoutfits = {
-            title = "Otevřít menu oděvů gangu"
+            title = "Otevřít nabídku gangových oblečení"
         },
         bossmanagedoutfits = {
-            title = "Otevřít menu oděvů spravovaných bossem"
+            title = "Otevřít nabídku oblečení spravovaných šéfem"
         }
     },
     textUI = {
         clothing = "Obchod s oblečením - Cena: $%d",
-        barber = "Holičství - Cena: $%d",
-        tattoo = "Tattoo Studio - Cena: $%d",
+        barber = "Kadeřnictví - Cena: $%d",
+        tattoo = "Tetovací salón - Cena: $%d",
         surgeon = "Plastická chirurgie - Cena: $%d",
-        clothingRoom = "Místnost s oblečením",
-        playerOutfitRoom = "Oděvy hráče"
+        clothingRoom = "Místnost na převlékání",
+        playerOutfitRoom = "Oblečení"
     },
     migrate = {
         success = {
@@ -359,7 +359,7 @@ Locales["cs"] = {
                 description = "Dali jste $%s komu: %s!"
             },
             failure = {
-                title = "Exploit!",
+                title = "Podvod!",
                 description = "Neměli jste dost peněz! Pokusili jste se zneužít systém!"
             }
         }
